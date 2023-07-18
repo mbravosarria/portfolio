@@ -42,6 +42,8 @@ body {
 }
 
 body {
+  display: flex;
+  justify-content: center;
   background: var(--color-2);
 }
 
