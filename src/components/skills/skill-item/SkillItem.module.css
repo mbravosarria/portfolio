@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48%;
+}
+
+.bar {
+  height: 10px;
+  width: 75%;
+  background: var(--color-3);
+  border-radius: var(--border-radius);
+}
+
+.percent__bar {
+  height: 100%;
+  background: var(--color-blue);
+  border-radius: var(--border-radius);
+}
+
+.title {
+  color: var(--color-5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 100%;
+  }
+  .title {
+    font-size: 12px;
+  }
+  .bar {
+    width: 65%;
+    height: 5px;
+  }
+}
