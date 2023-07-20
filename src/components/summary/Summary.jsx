@@ -1,3 +1,4 @@
+import Image from "next/image";
 import styles from "./Summary.module.css";
 import { HiMail, HiLocationMarker, HiPhone } from "react-icons/hi";
 
@@ -5,7 +6,13 @@ function Summary() {
   return (
     <section className={styles.container}>
       <div className={styles.img__container}>
-        <img alt="Profile image" src="/profile.jpeg" className={styles.image} />
+        <Image
+          alt="Profile image"
+          src="/profile.jpeg"
+          className={styles.image}
+          width={800}
+          height={800}
+        />
       </div>
       <div className={styles.content}>
         <div className={styles.header}>
