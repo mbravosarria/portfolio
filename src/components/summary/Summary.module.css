@@ -85,7 +85,7 @@
 @media screen and (max-width: 800px) {
   .container {
     flex-direction: column;
-    max-width: 600px;
+    max-width: 800px;
   }
 }
 

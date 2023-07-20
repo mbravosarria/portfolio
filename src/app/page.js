@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import Skills from "@/components/skills/Skills";
 import Experiences from "@/components/experiences/Experiences";
 import Projects from "@/components/projects/Projects";
+import Certifications from "@/components/certifications/Certifications";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Skills />
       <Experiences />
       <Projects />
+      <Certifications />
     </main>
   );
 }

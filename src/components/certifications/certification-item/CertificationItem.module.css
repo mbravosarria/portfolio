@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.info__container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.image__container {
+  display: flex;
+  width: 40%;
+}
+
+.date {
+  color: var(--color-4);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.role {
+  color: var(--color-6);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.company {
+  color: var(--color-5);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.description__item {
+  display: flex;
+  gap: 5px;
+  align-items: flex-start;
+  color: var(--color-4);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 600px) {
+  .description__item {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .role {
+    font-size: 8px;
+  }
+  .company {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .image__container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .image__container {
+    width: 100%;
+  }
+}

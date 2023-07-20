@@ -165,3 +165,37 @@ export const projects = [
     live: "https://interior-consultant-master.onrender.com",
   },
 ];
+
+export const certifications = [
+  {
+    name: "Responsive Web Design",
+    company: "freeCodeCamp",
+    date: "January 16, 2023",
+    image: "/responsive-web-design.png",
+    link: "https://www.freecodecamp.org/certification/fcc2c5d576f-c274-4243-977f-1e8286f8dfdc/responsive-web-design",
+    content: ["html", "css"],
+  },
+  {
+    name: "JavaScript Algorithms and Data Structures",
+    company: "freeCodeCamp",
+    date: "January 17, 2023",
+    image: "/javascript.png",
+    link: "https://www.freecodecamp.org/certification/fcc2c5d576f-c274-4243-977f-1e8286f8dfdc/javascript-algorithms-and-data-structures",
+    content: [
+      "javascript",
+      "ES6",
+      "regular-expressions",
+      "debugging",
+      "data-structures",
+      "oop",
+    ],
+  },
+  {
+    name: "Back End Development and APIs",
+    company: "freeCodeCamp",
+    date: "April 13, 2023",
+    image: "/backend.png",
+    link: "https://www.freecodecamp.org/certification/fcc2c5d576f-c274-4243-977f-1e8286f8dfdc/back-end-development-and-apis",
+    content: ["node", "express.js", "mongodb", "mongoose"],
+  },
+];
