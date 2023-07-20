@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./Summary.module.css";
 import { HiMail, HiLocationMarker, HiPhone } from "react-icons/hi";
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 function Summary() {
   return (
@@ -21,6 +22,26 @@ function Summary() {
             <h2 className={styles.occupation}>
               Front-end developer | React | JavaScript | Node
             </h2>
+            <div className={styles.social__container}>
+              <a
+                href="https://www.linkedin.com/in/bravos-dev/"
+                target="_blank"
+                className={styles.social}
+                rel="noopener noreferrer"
+              >
+                <BsLinkedin />
+                bravos-dev
+              </a>
+              <a
+                href="https://github.com/mbravosarria"
+                target="_blank"
+                className={styles.social}
+                rel="noopener noreferrer"
+              >
+                <BsGithub />
+                mbravosarria
+              </a>
+            </div>
           </div>
           <div className={styles.contact}>
             <div className={styles.contact__info}>

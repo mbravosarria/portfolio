@@ -7,6 +7,18 @@
   margin-inline: 2rem;
 }
 
+.social__container {
+  display: flex;
+  gap: 20px;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  color: var(--color-blue);
+  gap: 2px;
+}
+
 .img__container {
   flex: 0.22;
 }
